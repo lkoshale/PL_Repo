@@ -1,0 +1,68 @@
+i am writing some of the tricky questions else are easy and straight foward
+
+
+round1: 
+
+1)fun()
+{
+ int x=10,y=10,z=5;
+
+ int i=x<y<z;
+
+ cout<<i<<endl;
+}
+
+ans:0  since precedence of < is left to right
+
+
+
+1)class A
+
+{
+  virtual foo (int i=0){
+     cout<<"A"<<i;
+}
+
+class B
+{
+  virtual foo (int i=1){
+     cout<<"B"<<i;
+}
+
+
+void foo(B &a)
+{ 
+ a.foo();
+}
+
+
+int main()
+{
+ A a;
+
+ foo(a);
+}
+
+
+3) time complexity of recursive fiboonaci series
+
+a)O(n)
+b)O(n^2)
+c) O(n!)
+d) none of the above
+
+ans: c  since the notation is O
+
+
+4)what of the following instructions makes the mode shift from use mode to kernel mode
+
+a)CAll FAR
+b)SYSTEMERT
+c)INT
+d) all of the above
+
+
+round2:
+
+1)convert base2 to base4
+2)give a linked list of 0's 1's and 2's. manipulate the pointers so that it is sorted

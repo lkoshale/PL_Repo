@@ -1,0 +1,89 @@
+
+2010 Adobe Placement Paper:-
+
+1. How does free() function work ?
+
+2. Expand a[3][2][5]=6;
+
+3. **foo(int rows, int columns) – asked to allocate a memory dynamically for a 2-Dimensional array and return that pointer from function foo?
+
+4. Int main()
+{
+int a[4]={10,23,24,65};
+int *prt=a;
+int index
+for(index=0;index<4;index++)
+{
+printf(“%d”,*prt);
+Ptr+=sizeof(int);
+}
+}
+
+5. Find the depth of a binary tree?
+
+6. How Generic Swap of two elements can be implemented? that supports all type line int char float double etc..
+
+7. Number of times multiplication is required:
+
+int computeXn(int x int n)
+{
+if(n%2=0)
+{
+return x*x;
+}
+else if(n%2=0)
+{
+int y computeXn(x n/2);
+return y*y;
+}
+else if(n%2=1)
+{
+int y computeXn(x n/2);
+return y*y*x;
+}
+}
+Calculating power of a tree for 5^12.
+
+8. Find the path from root to all the leaf nodes?
+
+9. How do you sort a huge data such that all of the data at a time cant fit into the main memory? Write the pseudo code for it?
+
+10. Head(aann)=a Tail(aann)=ann cont(aa,bb)=aabb; For which of the following : cont(head(s),head(tail(tail(s)))='ac'
+
+i. aaac
+ii. abbc
+iii. accc
+iv. Abdc
+
+11. You have two threads T1 and T2 they are reader and writer respectively. Implement the reader, writer problem using the following functions?
+With some specification:
+ADDNEW.Process
+PROCESS.SET
+PROCESS.RESET
+ENTER CS
+EXIT CS
+LOOP
+EXIT LOOP
+WAIT# PROCESS
+
+12. a 3-d matrix was given in format a[3][2][4]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24} find **(*a+1)
+
+13. a assembly code was given ... it was too ajeeb sa ..i cud not get that
+
+14. which is the best data structure to check correct paranthesization of an expression ?? give reasons ?
+
+15. Binary search Tree was given. Find 4th smallest element.
+
+16. Some code in assembly was given and given five options. What is being calculated?
+
+Ans (XY) 2 + Y + Z
+
+17. Represent (-5)10 in 2’s complement representation in 8 bits
+
+18. Expression was given. Draw tree and then find the postfix
+
+19. Some commands in the assembly language were given. Then need to convert this code in assembly
+
+A=300;
+For (i=0 ; i&lt;=10 ;  i++)
+A=A+200;

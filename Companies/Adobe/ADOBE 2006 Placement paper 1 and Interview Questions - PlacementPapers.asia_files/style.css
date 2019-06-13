@@ -1,0 +1,500 @@
+/*
+Theme Name: Flexi-Blue
+Theme URI: http://www.110words.com/506/flexi-blue-free-wordpress-theme/
+Description: "Flexi-Blue SEO optimized Theme" is a free WordPress theme. Designed by <a href="http://www.110words.com">110 Words</a> InfoZoft Media.
+Version: 1.0.0
+Author: Lins C George
+Author URI: http://www.110words.com
+Tags: fixed width, widgets, widget ready, right sidebar, three columns, premium, professional, simple, seo friendly, clean, green, gravatars, valid XHTML, valid CSS
+
+	Vista v1.0.0
+	 http://www.110words.com
+
+	This theme was designed and built by 110words.com
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+
+html, body, * html .main { height:100%; }
+table { border-collapse:collapse; }
+body, td, form, h1, h2, h3, h4, h5 ,h6, ul, li, p { margin:0; padding:0; }
+img { border:0 none; }
+map { display:none; }
+h1, h2, h3, h4, h5 ,h6 { letter-spacing:normal; }
+
+.wf { width:100%; }
+.hf { height:100%; }
+.whf { width:100%; height:100%; }
+.tar { text-align:right !important; }
+.tal { text-align:left !important; }
+.tac { text-align:center !important; }
+.di img { display:inline !important;}
+img.di { display:inline !important;}
+.clr { clear:both; height:1px; overflow:hidden; }
+.clear { clear:both; }
+object { display:block; }	
+.fl { float:left; }
+.fr { float:right; }
+.block { display:block; }
+.hide { display:none; }
+
+body, td, th, form, h1, h2, h3, h4, h5 ,h6, ul, li, p, div, a, code, blockquote { font-size:12px; font-family:arial,helvetica,sans; color:#000; line-height:200%; }
+textarea, input { font-size:12px; font-family:arial,helvetica,sans; color:#000; }
+a, a:link, a:active { text-decoration:underline; color:#06C; }
+a:hover { color:#06C; }
+a:visited { color:#06C;/*#6300CC*/; }
+.ainv a, .ainv a:link, .ainv a:visited, .ainv a:active { text-decoration:none; }
+.ainv a:hover { text-decoration:underline; }
+a.ainv:link, a.ainv:visited, a.ainv:active { text-decoration:none; }
+a.ainv:hover { text-decoration:underline; }
+
+/** basic **/
+
+/**
+== STRUCTURE: ========================
+    * Page width:            980 px
+    * Number of columns:     24
+    * Column width:          20 px
+    * Margin width:          20 px
+======================================
+**/
+
+/* added while developing */
+
+/* added while developing */
+
+
+.main {
+	min-height:100%;
+	background: #DAF2FC;
+}
+.padds {
+	padding:20px 0;
+	width:952px;
+	margin:0 auto;
+}
+.borders {
+	border:1px solid #DAF2FC;
+}
+.bg-1 {
+	background:#DAF2FC;
+	padding:4px;
+}
+.bg-2 {
+	background:#FFF
+}
+.header {
+	background:url(img/header.jpg) 0 0 no-repeat;
+	height:90px;
+	padding:0 20px;
+}
+.top-title {
+	font-size:25px;
+	padding:25px 0 0 0;
+	line-height:80%;
+	font-weight: bold;
+}
+	.top-title a {
+		font-size:25px;
+		line-height:80%;
+		color:#FFF !important;
+		text-decoration:none;
+	}
+.slogan {
+	font-size:13px;
+	padding:10px 0 0 0;
+	line-height:120%;
+	font-weight:normal;
+}
+.white {
+	color:#FFF;
+}
+.top-nav {
+	background: 0 0 repeat-x #7BD0F4;
+	border-top:1px solid #7BD0F4;
+	border-bottom:1px solid #7BD0F4;
+	height:28px;
+}
+.list-1, .list-2, .list-3 {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.list-1 {
+	height:28px;
+}
+	.list-1 li {
+		height:28px;
+		list-style:none;
+		padding:0;
+		float:left;
+		display:block;
+		margin:0;
+		line-height:110%;
+	}
+	.list-1 li {
+		height:22px;
+		padding:6px 20px 0 20px;
+		float:left;
+		background:#7BD0F4;
+		border-right:1px solid #7BD0F4;
+	}
+	.list-1 a {
+		font-size:15px;
+		line-height:110%;
+		color:#005F9D !important;
+	}
+	.list-1 a.act, .list-1 li.current_page_item {
+		font-weight:bold;
+		padding-top: 7px;
+		background:#7BD0F4;
+	}
+	.top-nav span.fr {
+		padding:6px 20px 0 10px;
+		border-left:0px solid #9FA2A4;
+		height:22px;
+		line-height:100%;
+	}
+	.top-nav div.fr {
+		padding:1px 0 0 0;
+		line-height:100%;
+	}
+.button {
+	cursor:pointer;
+	font-size:13px;
+	color:#000;
+}
+.textfield {
+	width:150px;
+	color:#999;
+	font-size:13px;
+}
+.search-button {
+	background:url(img/find.gif) no-repeat;
+	width:50px;
+	height:22px;
+	text-align:center;
+	border:0 none;
+	margin:0 20px 0 10px;
+}
+.orange-button {
+	background:url(img/button.gif) no-repeat;
+	width:94px;
+	height:25px;
+	text-align:center;
+	border:0 none;
+	color:#FFF;
+}
+.search-textfield {
+	padding-left:20px;
+	background:url(img/search.gif) 4px 4px no-repeat #FFF;
+}
+.footer {
+	height:30px;
+	background: 0 0 repeat-x #005F9D;
+}
+	.footer div {
+		padding:0px 20px 0 20px;
+	}
+	.footer * {
+		font-size:13px !important;
+		color:#008BE8 !important;
+		text-decoration:none !important;
+	}
+.side-padds {
+	padding:20px 20px 0 20px;
+	min-height:1px;
+}
+* html .side-padds {
+	height:1px;
+}
+.span-5 {
+	width:180px;
+	margin:0 0 0 20px;
+}
+.span-14 {
+	width:540px;
+	padding:0 0 20px 0;
+}
+.span-12 {
+	width:500px;
+	padding:0 0 20px 0;
+}
+.side-block {
+	border:1px solid #DAF2FC;
+	background:#F6FCFF;
+	padding:10px 15px 10px 15px;
+	line-height:150%;
+	margin:0 0 15px 0;
+}
+	.side-block * {
+		line-height:150%;
+	}
+	.side-block ul li {
+		padding:0 0 5px 20px;
+		background:url(img/raquo.gif) 4px 7px no-repeat;
+		margin:0;
+		list-style:none;
+		display:block;
+	}
+.side-title {
+	font-size:14px;
+	padding:0 0 5px 0;
+}
+	.list-2 li {
+		padding:0 0 10px 20px;
+		background:url(img/raquo.gif) 4px 5px no-repeat;
+		margin:0;
+		list-style:none;
+		display:block;
+	}
+	.list-2 .sublevel {
+		padding:0 0 10px 36px;
+		background:url(img/raquo.gif) 20px 5px no-repeat;
+	}
+	.list-2 span {
+		font-size:11px;
+		color:#999;
+	}
+	.list-2 .act {
+		font-weight:bold;
+		color:#CC4200 !important;
+	}
+	.list-3 li.i {
+		padding:0 0 20px 0;
+		margin:0;
+		list-style:none;
+		display:block;
+		min-height:1px;
+	}
+		.list-3 li.i p {
+			padding-bottom: 15px;
+		}
+		.list-3 li.i h3 {
+			font-size: 15px;
+		}
+		.list-3 li.i h4 {
+			font-size: 13px;
+		}
+		.list-3 li.i ul {
+			padding-bottom: 15px;
+		}
+			.list-3 li.i p ul {
+				padding-bottom: 0px;
+			}
+		blockquote {
+			display:block;
+			margin:0;
+			background:url(img/top-quotes.gif) 20px 0 no-repeat;
+			padding:0 0px 15px 0px;
+			font-style: italic;
+		}
+		blockquote p {
+			display:block;
+			background:url(img/bottom-quotes.gif) right bottom no-repeat;
+			padding:20px 20px 20px 40px;
+			margin:0 20px 0 0;
+		}
+		code {
+			margin:0 20px;
+			padding:15px;
+			background:#EDFBF6;
+			display:block;
+			/* border:1px solid #BEE2D5; */
+		}
+	* html .list-3 li {
+		height:1px;
+	}
+.calendar {
+	background:url(img/calendar.gif) no-repeat;
+	width:47px;
+	height:53px;
+	line-height:100%;
+	position:absolute;
+	margin:0 auto auto 0;
+}
+	.calendar span {
+		padding:11px 0 6px 0;
+		color:#FFF;
+		font-size:11px;
+		line-height:100%;
+	}
+	.calendar div {
+		font-weight:bold;
+		color:#FFF;
+		font-size:19px;
+		line-height:100%;
+	}
+.title, .title-0 {
+	padding:6px 0 15px 0px;
+	line-height:110%;
+}
+	.title * {
+		line-height:110%;
+	}
+	.title div {
+		padding:3px 0 0 0;
+		font-size:13px;
+		color:#999;
+		line-height:150%;
+	}
+		.title div a {
+			font-size:13px;
+		}
+.title-0 {
+	padding:0 !important;
+	margin:0 !important;
+}
+	.title-0 .title-1 {
+		margin-top: 0;
+		padding-top: 0;
+	}
+.title-1, .title-1 a {
+	font-size:19px;
+	font-weight:bold;
+	margin: 1px 0 3px 0;
+}
+.permalink {
+	padding:0 0 0 25px;
+	margin:0 30px 0 0;
+	background:url(img/permalink.gif) 0 0 no-repeat;
+	font-size:11px;
+}
+.comments {
+	padding:0 0 0 25px;
+	margin:0 30px 0 0;
+	background:url(img/comment.gif) 0 0 no-repeat;
+	font-size:11px;
+}
+.title-2 {
+	font-size:17px;
+	border-bottom:2px solid #BEE2D5;
+}
+p.clear {
+	padding:10px 0 0 0;
+}
+	.list-3 ul {
+		display:block;
+		padding:0;
+		margin:0;
+		list-style:none;
+	}
+		.list-3 ul li {
+			display:block;
+			padding:0 0 0 20px;
+			background:url(img/raquo.gif) 5px 11px no-repeat;
+			margin:0;
+			list-style:none;
+			position:relative;
+		}
+.list-4 {
+	display:block;
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+	.list-4 li {
+		display:block;
+		padding:0 20px 15px 20px !important;
+		margin:0 !important;
+		list-style:none;
+	}
+	* html .list-4 li {
+		padding:0 40px 0 20px !important;
+	}
+	*:first-child+html .list-4 li {
+		padding:0 40px 0 20px !important;
+	}
+	.list-4 img {
+		position:absolute;
+		margin:0 auto auto 0;
+	}
+	* html .list-4 img {
+		margin:20px auto auto 0;
+	}
+	*:first-child+html .list-4 img {
+		margin:20px auto auto 0;
+	}
+	.list-4 .tp {
+		display:block;
+		height:35px;
+		padding:0 0 0 40px;
+		margin:0;
+		border-bottom:1px solid #BEE2D5;
+		text-align:left;
+	}
+		.list-4 .tp cite {
+			display:inline;
+			padding:0;
+			margin:0;
+		}
+#wp-calendar caption {
+	padding-bottom: 5px;
+}
+#wp-calendar th {
+	padding-top: 5px;
+}
+#wp-calendar td {
+	padding-right: 9px;
+	line-height: 150%;
+}
+
+.alignnone {
+	padding: 0px 15px 5px 0;
+}
+.alignleft {
+	float: left;
+	padding: 0px 15px 5px 0;
+}
+.alignright {
+	float: right;
+	padding: 0px 0px 5px 15px;
+}
+.aligncenter {
+	float: right;
+	padding: 0px 0px 5px 15px;
+}
+
+.com h3 {
+	margin-bottom: 15px;
+}
+#commentform p {
+	margin-bottom: 5px;
+}
+	#commentform p label {
+		margin-left: 5px;
+	}
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+.date {
+	font-size: 10px;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px 0px 15px 0px;
+	}

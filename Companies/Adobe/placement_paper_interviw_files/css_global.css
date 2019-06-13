@@ -1,0 +1,806 @@
+.tborder {
+	border: 1px solid #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+.search-page-num-button {
+	border: none;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size: 10pt;
+	color: #003399;
+	background-color: #FFFFFF;
+}
+.gray-bor {
+	border: 1px solid #DBDCE3;
+	padding-top: 10px;
+	background-image: url(http://www.yuvajobs.com/graphics/back_js.gif);
+	background-repeat: repeat-x;
+}
+.gray-top-bor {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #F0F0F0;
+	background-color: #FFFFFF;
+}
+.gray-bottom {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #eceff6;
+}
+.link-verdana-bold {
+	text-decoration: underline;
+}
+.google-text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+}
+.top-back-new {
+	background-image: url(http://www.yuvajobs.com/graphics/new_back.gif);
+}
+.top-back-new-font {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+.top-back-new-font:hover {
+	color: #FFFF00;
+	text-decoration: underline;
+}
+.home-links {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #232323;
+	text-decoration: none;
+}
+.joblist-text-red {
+	FONT-SIZE: 8pt;
+	COLOR: #008000;
+	FONT-FAMILY: verdana, tahoma, geneva, arial, helvetica, sans-serif
+}
+.link-verdana {
+	FONT-SIZE: 8pt;
+	COLOR: #003399;
+	FONT-FAMILY: verdana, tahoma, geneva, arial, helvetica, sans-serif;
+	text-decoration: underline;
+}
+body {
+	top-margin: 0px;
+	left-margin: 0px;
+	right-margin: 0px;
+	bottom-margin: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.buttonclass {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003366;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: none #FFFFFF;
+	cursor: hand;
+cursor
+}
+.gray-bor-n {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #DBDCE3;
+	border-bottom-color: #DBDCE3;
+	border-left-color: #DBDCE3;
+}
+.gray-top-bor-n {
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #000000;
+	background-color: #FFFFFF;
+}
+.link-verdana-link {
+	FONT-SIZE: 9pt;
+	COLOR: #003399;
+	FONT-FAMILY: verdana, tahoma, geneva, arial, helvetica, sans-serif;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.buttonclass-dis {
+	border: 0px none #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+.link-verdana-dot {
+	FONT-SIZE: 8pt;
+	COLOR: #003399;
+	FONT-FAMILY: verdana, tahoma, geneva, arial, helvetica, sans-serif;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #003399;
+}
+.gobutton {
+	border: 1px solid #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #F8F8F8;
+}
+.buttonclassbold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003366;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: none #FFFFFF;
+	cursor: hand;
+	font-weight: bold;
+}
+.sidehead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF6600;
+	text-decoration: none;
+}
+.link-verdana-blk {
+	FONT-SIZE: 10px;
+	COLOR: #000000;
+	FONT-FAMILY: verdana, tahoma, geneva, arial, helvetica, sans-serif;
+	text-decoration: underline;
+}
+.new-button-bg {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	text-decoration: none;
+	background-image: url(http://www.yuvajobs.com/graphics/new_button_gradiant.gif);
+	height: 22px;
+	border: 1px solid #FFD388;
+	font-weight: bold;
+	vertical-align: middle;
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+.ligh-sky {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	height: 23px;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #D3DEE2;
+	padding-left: 10px;
+}
+.ligh-sky-vline {
+	background-color: #D3DEE2;
+	width:1px;
+}
+.ligh-sky-hline {
+	background-color: #D3DEE2;
+	height:1px;
+}
+.ligh-sky-border {
+	border: 1px solid #D3DEE2;
+}
+.newyellowbutton {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-image: url(http://www.yuvajobs.com/graphics/upload/buttonback.gif);
+	border: 1px solid #3C84FF;
+	height: 21px;
+	text-align: center;
+	vertical-align: top;
+	background-repeat: repeat-x;
+}
+.ligh-sky-light-back {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	height: 23px;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 10px;
+	border-right: 1px solid #D3DEE2;
+	border-bottom: 1px solid #D3DEE2;
+	border-left: 1px solid #D3DEE2;
+}
+.resumeback {
+	background-image: url(http://www.yuvajobs.com/graphics/jobseeker/resumeback.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.content {
+	height:600px;
+	font-family: "Lucida Sans Unicode", "Lucida Sans", Verdana, Arial;
+	font-size: 80%;
+	text-decoration: none;
+	color:#000000;
+	padding:10px;
+	line-height:1.6em;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #E1E1E1;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #E1E1E1;
+}
+.right-block {
+	padding-left:10px;
+	padding-top:10px;
+	font-family: "Lucida Sans Unicode", "Lucida Sans", Verdana, Arial;
+	font-size: 12px;
+	text-decoration: none;
+	color:#000000;
+}
+.left-block {
+	padding-right:5px;
+	padding-top:10px;
+	font-family: "Lucida Sans Unicode", "Lucida Sans", Verdana, Arial;
+	font-size: 12px;
+	text-decoration: none;
+	color:#000000;
+	width:180px;
+}
+.left-back {
+	background-image: url(http://www.yuvajobs.com/graphics/new_back_left.gif);
+	font-weight: bold;
+	height:23px;
+	color: #333333;
+	text-decoration: none;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-top:3px;
+	padding-left:10px;
+}
+.left-back-content {
+	padding:5px;
+}
+.spacer {
+	margin-top:20px;
+}
+.content-header {
+	background-image: url(http://www.yuvajobs.com/graphics/new_back_left1.gif);
+	font-weight: bold;
+	height:35px;
+	color: #000000;
+	text-decoration: none;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding-top:3px;
+	padding-left:10px;
+	border: 1px solid #E1E1E0;
+	padding-left:10px;
+	padding-right:10px;
+}
+.fb-link {
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	text-decoration: underline;
+	color:#003399;
+	cursor:hand;
+	cursor:pointer;
+}
+.fb-link-bold {
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	text-decoration: underline;
+	color:#003399;
+	cursor:hand;
+	cursor:pointer;
+	font-weight:bold;
+}
+.fb-link-luc {
+	font-family: "Lucida Sans Unicode", "Lucida Sans", Verdana, Arial;
+	font-size: 11px;
+	text-decoration: underline;
+	color:#673594;
+	cursor:hand;
+	cursor:pointer;
+}
+.fb-link-purple {
+	font-family: Verdana, Arial;
+	font-size: 11px;
+	text-decoration: none;
+	color:#000000;
+}
+.fb-link-purple-bold {
+	font-family: Verdana, Arial;
+	font-size: 11px;
+	text-decoration: none;
+	color:#000000;
+	font-weight:bold;
+}
+.fb-link-purple:hover {
+	text-decoration: underline;
+}
+.jobdesc {
+	font-size: 11px;
+	color: #333333;
+}
+.joblistbottom {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+.lileft {
+	margin-left:-10px;
+	padding-bottom: 10px;
+	list-style-type: none;
+	color: #666666;
+	list-style-image: url(http://www.yuvajobs.com/graphics/bullet_arrow.png);
+	list-style-position: outside;
+}
+.buttonclass-fb {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #003366;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	border: 1px solid #9AAFE5;
+	cursor: hand;
+	margin-left:8px;
+	padding-top:2px;
+	padding-bottom:2px;
+	cursor:hand;
+	cursor:pointer;
+}
+.buttonclass-fb-dis {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #416FA7;
+	border: 1px solid #213855;
+	cursor: hand;
+	margin-left:8px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+.displayresumeborder {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	background-color: #FFF;
+	border-right-width: 2px;
+	border-bottom-width: 3px;
+	border-left-width: 2px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #2C9AC8;
+	border-bottom-color: #2C9AC8;
+	border-left-color: #2C9AC8;
+}
+.displayresumehead {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	height: 30px;
+	padding-left: 10px;
+}
+.formbig {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+}
+.bigtextbox {
+	height: 23px;
+	border: 1px solid #D9D9FF;
+	width:250px;
+}
+.displi {
+	padding-left: -10px;
+}
+.displi li {
+	padding-bottom: 10px;
+	list-style-image: url(http://www.yuvajobs.com/graphics/right_icon_jobseeker.png);
+	list-style-type: none;
+}
+.error_box {
+	border:solid 1px #F1A8E4;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	background-color:#FDF0FA;
+	padding:10px;
+	font-size:12px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.error_box_strong {
+	color:#000000;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-weight:bold;
+	padding-bottom:13px;
+}
+.error_box a {
+	color:#DD3C10;
+	text-decoration:none;
+}
+.error_left {
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+.error_left a {
+	color: #3b5998;
+	outline-style: none;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size:11px;
+}
+.error_left_tab div {
+	width:150px;
+	height:20px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	border-top:#D6D9DE solid 0px;
+	border-bottom:#D6D9DE solid 0px;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size:12px;
+	padding-top:5px;
+	padding-bottom:3px;
+	padding-left:10px;
+}
+.error_left_tab a {
+	color: #3b5998;
+	outline-style: none;
+	text-decoration: none;
+	font-size: 11px;
+	height:18px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.error_left_tab div:hover {
+	border-top:#D6D9DE solid 0px;
+	background-color:#ECEEF4;
+	text-decoration:none;
+	color:#000000;
+}
+.error_left_tab a:hover {
+	color:#000000;
+}
+.error_left_tab1 div {
+	width:150px;
+	height:25px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-weight: normal;
+	text-decoration: none;
+	border-bottom:#E5E5E5 solid 1px;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size:11px;
+	padding-top:5px;
+	padding-bottom:3px;
+	padding-left:10px;
+	padding-top:10px;
+}
+.error_left_tab1 a {
+	color: #3b5998;
+	outline-style: none;
+	text-decoration: none;
+	font-size: 11px;
+	height:18px;
+	font-weight: normal;
+	text-decoration: none;
+}
+.error_left_tab1 a:hover {
+	color:#000000;
+}
+.new_heading {
+	font-weight:normal;
+	font-size:16px;
+	height:20px;
+	padding-top:5px;
+	border-bottom:1px solid #DDDDDD;
+	padding-bottom:10px;
+	font-family: tahoma, verdana, arial, sans-serif;
+}
+.new_heading_bold {
+	font-weight:bold;
+	font-size:15px;
+	height:20px;
+	padding-top:5px;
+	border-bottom:1px solid #DDDDDD;
+	padding-bottom:10px;
+	font-family: tahoma, verdana, arial, sans-serif;
+}
+.sgb {
+	color: #333;
+	font-family: Arial, verdana, arial, sans-serif;
+	font-size: 11px;
+	background-image: url(http://www.yuvajobs.com/graphics/2011/small_button_4.gif);
+	cursor:pointer;
+	cursor:hand;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #d8dfea;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color:#d8dfea;
+	font-weight:bold;
+	margin-top: 0;
+	margin-right: 3px;
+	margin-bottom: 0;
+	margin-left: 3px;
+	padding-top: 2px;
+	padding-right: 8px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	background-color: #F4F4F4;
+}
+.sgbb {
+	background-position: -40px 0px;
+}
+.sgbu {
+	background-position: 0px -24px;
+	padding-left: 22px;
+}
+.sgbd {
+	padding-left: 22px;
+}
+.correct_box {
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	border:solid 1px #e2c822;
+	background-color:#fff9d7;
+	padding:10px;
+	font-size:12px;
+	margin-top:20px;
+	margin-bottom:20px;
+	line-height:18px;
+}
+.correct_box_strong {
+	color:#000000;
+	font-weight:bold;
+	padding-bottom:13px;
+}
+.correct_box a {
+	color:#DD3C10;
+	text-decoration:none;
+}
+.correct_green_box {
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	border:solid 1px #090;
+	background-color:#F2FFF9;
+	padding:10px;
+	font-size:12px;
+	margin-top:20px;
+	margin-bottom:20px;
+	line-height:18px;
+}
+.correct_green_box_strong {
+	color:#000000;
+	font-weight:bold;
+	padding-bottom:13px;
+}
+.correct_green_box a {
+	color:#039;
+	text-decoration:none;
+}
+.hand {
+	cursor:hand;
+	cursor:pointer;
+}
+.user_profile {
+	color:#000000;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-weight:normal;
+	font-size:11px;
+	padding-bottom:11px;
+	line-height:22px;
+	padding-bottom:10px;
+}
+.user_profile strong {
+	color:#000000;
+	font-family: "lucida grande", Verdana, tahoma, arial, sans-serif;
+	font-weight:bold;
+	padding-bottom:11px;
+	font-size:18px;
+	text-transform: capitalize;
+}
+.user_profile a {
+	color:#3b5998;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-weight:normal;
+	font-size:11px;
+	text-decoration:none;
+	margin-right:10px;
+}
+.user_profile a:hover {
+	text-decoration:underline;
+}
+.user_profile span {
+	padding-left:4px;
+	padding-right:4px;
+}
+.user_profile img {
+	padding-left:5px;
+	padding-right:5px;
+}
+.profile_heading {
+	background-color:#F4F4F4;
+	font-weight:bold;
+	font-size:11px;
+	height:25px;
+	padding-left:10px;
+	margin-top:15px;
+	color:#333;
+	text-align:left;
+	margin-bottom:10px;
+	border-bottom:#CCC solid 1px;
+}
+.profile_heading_left {
+	background-color:#F2F2F2;
+	font-weight:bold;
+	font-size:11px;
+	height:23px;
+	padding-left:10px;
+	margin-top:15px;
+	color:#333;
+	text-align:left;
+	margin-bottom:10px;
+	border-top:#E2E2E2 solid 1px;
+}
+.user_profile label {
+	display: block;
+	float: left;
+	width:170px;
+	padding: 3px 5px;
+	margin: 0 0 5px 0;
+	text-align: left;
+	text-decoration: none;
+	font-weight:bold;
+	color:#666;
+	padding-left:10px;
+	font-size:11px;
+	font-family:Verdana, Helvetica, sans-serif;
+}
+.dd {
+	display: block;
+	padding: 3px 5px;
+	padding-left:30px;
+	margin: 0 0 5px 0;
+	text-decoration: none;
+	font-weight:normal;
+	color:#666;
+	padding-bottom:10px;
+}
+
+.profile_page_heading {
+	color:#0D1421;
+	font-family: Verdana, tahoma, arial, sans-serif;
+	font-weight:bold;
+	padding-bottom:11px;
+	font-size:15px;
+	text-transform: capitalize;
+border-bottom:solid 1px #AEAEAE;
+padding-bottom:17px;
+}
+.user_profile input[type=text],input.text
+{
+	background-repeat:repeat-x;
+	border:1px solid #BEBEBE;
+	width: 250px;
+	color:#333333;
+	padding:3px;
+	margin-right:4px;
+	margin-bottom:12px;
+	font-family:tahoma, arial, sans-serif;
+}
+
+
+.user_profile select{
+	background-repeat:repeat-x;
+	border:1px solid #BEBEBE;
+	color:#333333;
+	height:20px;
+	width:auto;
+}
+
+
+.edit_profile
+{
+	border-bottom:#E9E9E9 solid 1px;
+	font-size:11px;
+	font-family: Verdana, tahoma, arial, sans-serif;
+	height:30px;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	
+}
+.edit_profile strong
+{
+	font-weight:bold;
+	color:#333333;
+	font-size:11px;
+}
+
+.edit_profile .left
+{
+	float:left;width:300px;
+}
+
+.edit_profile .right
+{
+	float:right;
+}
+.edit_profile a {
+	color:#3b5998;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-weight:normal;
+	font-size:11px;
+	text-decoration:none;
+	margin-right:10px;
+}
+.edit_profile a:hover
+{
+	text-decoration:underline;
+}
+
+.edit_profile:hover
+{
+	background:#FFFDE9;
+cursor:hand;
+cursor:pointer;
+}
+
+.profile_content
+{
+	color:#666;padding:20px;padding-top:10px;
+}
+.profUp
+{
+	color:#000000;
+	font-weight:normal;
+	font-size:11px;
+	font-family: Verdana, tahoma, arial, sans-serif;
+	height:30px;
+	padding-top:10px;
+	padding-left:50px;
+	padding-right:10px;
+	display:none;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: 20px center;
+	text-decoration: none;
+	text-align:center;
+}
+.error
+{
+	color:#F00;
+	
+}

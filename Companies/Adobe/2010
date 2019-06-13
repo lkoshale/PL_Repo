@@ -1,0 +1,200 @@
+
+http://sameerbsws.blogspot.com/2010/09/iit-g-adobe-2010.html
+
+Adobe 2010 latest placement Papers
+Two rounds: Not tough Question.!!!! But time management reqd.
+Engineering Round:(15 question)
+
+1 Finding height of binary tree
+
+2. Number of times multiplication is required:
+
+int computeXn(int x int n)
+{
+if(n%2=0)
+{
+return x*x;
+}
+else if(n%2=0)
+{
+int y computeXn(x n/2);
+return y*y;
+}
+else if(n%2=1)
+{
+int y computeXn(x n/2);
+return y*y*x;
+}
+}
+Calculating power of a tree for 5^12.
+
+3. Polynomial A+Bx+Cx^2+....+Nx^(n-1) this representation is more suitable for which data structure. Then P and Q are two such polynomial and how to add that two using that data structure. WAP for that.
+
+
+
+
+
+
+4. Specification of variables in one language: letter follow by letter or digit.
+options:
+1. (LUD)*
+2. L.(LUD)* => this one right.
+3. L.(L.D)+
+4. L.(L.D)*
+
+
+5. How Generic Swap of two elements can be implemented? that supports all type line int char float double etc..
+
+6. Two rectangle is given with following data structure
+rectangle {
+int left_X;
+int Left_X;
+int right_X;
+int Right_Y;
+}
+Two are in X-axis wise. How to find that they are intersected or not? WAP for that...
+
+7. Free( P) How it decide how much space should be freed in c?
+
+8. Head(aann)=a Tail(aann)=ann cont(aa,bb)=aabb;
+For which of the following : cont(head(s),head(tail(tail(s)))='ac'
+
+i. aaac
+ii. abbc
+iii. accc
+iv. abdc
+
+250x250 Moen
+
+
+C Round:(10 question)
+
+1. Diff between typedef and #define?
+
+2. getbis function gives n bits from the position p of an binary no A.
+
+3. You have to sort large data. But your memory does not have so much space. how you can sort that.
+
+4. a[2][3][4] pointer representation
+
+5. You have two threads T1 and T2 they are reader and writer respectively.
+With some specification:
+ADDNEW.Process
+PROCESS.SET
+PROCESS.RESET
+ENTER CS
+EXIT CS
+LOOP
+EXIT LOOP
+WAIT# PROCESS
+
+6. sprintf() function used how and what means?
+
+7.
+An array given Arr[] which is in decreasing order. How many swapping required in
+for(int index=0;indexa[j+1])
+{
+swap(a[j],a[j+1]);
+}
+}
+}
+
+
+
+
+
+
+
+
+8. Finding Output:
+int arr[]={10,20,30,40}
+int varible_ptr=arr[0];
+for(int index=0;index<4;index++) { printf(" arr[%d] = %d", index, *(varible_ptr+index)); varible_ptr+=sizeof(int); } Ans: output: arr[0]=10 arr[1]=30...
+
+
+
+
+
+
+1. Given the binary representation of an integer in the form of a string of
+zeros and ones, write a function to return the string representation of its
+2’s complement. Use only one pass of the string.
+
+2. An output based question which was very error prone and time consuming.
+
+3. Given that file1.c contains a string definition as:
+Char st[100];
+Whereas file2.c contains following piece of code:
+extern char * st;
+func foo ()
+{
+st[0]++;
+}
+If file1 is now included in file2.c then what problems above function may
+have and in which cases?
+
+4. Define a doubly linked list. Write a function to reverse a doubly linked
+list.
+
+5. Write a function to return the maximum of three numbers using only
+ternary operator (?:)
+
+6. Given a 3D array as shown below:
+int arr[3][2][4] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21};
+fine the value of the following:
+
+**(*arr+1)
+
+7. Give a one line description of the following explaining the difference
+between the two:
+Void (*ptr)(int * arr[], int n)
+Void * (*ptr)(int * arr, int n)
+
+8. Give Output:
+int * x, y;
+x = (int *)60;
+y = (int *)20;
+printf(“%d\n”,x-y);
+
+9. #define ADD(X,Y) (X*Y)
+#define MULTIPLICATION(X,Y) (X+Y)
+Some expression was given, you had to give the output.
+
+10. Write a recursive function to find the GCD of two numbers.
+(Hint: use repeated division )
+
+Engineering Paper
+
+1. Given BAC7 in base 14. Convert it to base 7.
+2. A tree traversal in preorder and inorder was given. You had to construct
+the tree.
+3. A prefix expression was given, you have to evaluate it.
+4. A long Assembly code was given, you have to tell what it does.
+5. A hash function is given:
+H(x) = ((H(x)mod1000)div100 * 10 + H(x)mod10)
+
+Some hash values were given you had to tell which one of them map to the
+same hash keys.
+6. A Boolean expression was given, you had to solve it.
+7. Given to singly linked lists A and B, find whether linked list B points
+to the middle of A or not? Use only one pass of linked list A and B.
+(If linked list A contains 20 nodes then middle node = 11 and for 21 nodes
+middle = 11)
+
+8. Two unsorted arrays are given A[n] and B[n+1]. Array A contains n
+integers and B contains n+1 integers of which n are same as in array B but
+in different order and one extra element x. Write an optimized algorithm to
+find the value of element x. Use only one pass of both arrays A and B.
+
+9. Match the following that can be used to implement the values given on the
+left column:
+
+a) Dynamic Memory management i) Tree
+b) Printer Spooling ii) Linked list
+c) File system iii) stack
+d) Function call iv) queue
+
+
+worx-300x250-holiday
+
+
